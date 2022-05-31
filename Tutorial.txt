@@ -1,0 +1,17 @@
+default version is 1.2
+
+eighteen classes are children of class pbdb()
+
+each class have servial method, same as PBDB API.
+
+every method accept iformat and **kwargs
+
+the main idea of pbdb() is compile correct URL.
+
+URL is compared by self.base_url, self_version, self.method, self.format, **kwargs.
+I use make_fp() to combined self.base_url, self_version, self.method, self.format by /
+I use make_kw(**kwargs) to combined every key, value of **kwargs by &
+
+Default result_of_url() will save the result of GET URL to a self.format file.
+
+If you are interested in this project, welcome to join!
