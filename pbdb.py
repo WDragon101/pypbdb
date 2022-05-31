@@ -462,5 +462,21 @@ class educational_resources(pbdb):
 
 
 if __name__ == '__main__':
-    fo = fossil_occurrences()
-    fo.single_fossil_occurrence(iformat='csv', id=32044, pgm='gp_early', show='loc,coords,bin')
+    fossil_occurrences = fossil_occurrences()
+    fossil_collections = fossil_collections()
+    specimens_and_measurements = specimens_and_measurements()
+    taxonomic_names = taxonomic_names()
+    taxonomic_opinions = taxonomic_opinions()
+    geological_time_intervals_and_time_scales = geological_time_intervals_and_time_scales()
+    geological_timescales_intervals_and_interval_bounds = geological_timescales_intervals_and_interval_bounds()
+    geographic_places = geographic_places()
+    geological_strata = geological_strata()
+    bibliographic_references = bibliographic_references()
+    research_publications = research_publications()
+    data_archives = data_archives()
+    client_configuration = client_configuration()
+    combined_data = combined_data()
+    database_contributors = database_contributors()
+    support_for_frontend_application = support_for_frontend_application()
+    database_statistics = database_statistics()
+    educational_resources = educational_resources()
